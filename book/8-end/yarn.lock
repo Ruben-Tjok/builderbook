@@ -1251,10 +1251,10 @@
     "@octokit/types" "^5.0.0"
     universal-user-agent "^6.0.0"
 
-"@octokit/oauth-login-url@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@octokit/oauth-login-url/-/oauth-login-url-2.1.2.tgz#364ef24a0aa4191f0f6ea6dfc64a999e460f9adf"
-  integrity sha512-ryDOt47Rno7+PG5XbdwoFTlADrH/f+XFf//keJngEeBNAe6gKrdcLL4vofa5005nl1ZIcIlgSnbKtKQhiKefMA==
+"@octokit/oauth-authorization-url@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@octokit/oauth-authorization-url/-/oauth-authorization-url-4.1.0.tgz#c55ebe59289ea2208a9c9ea51c7176042d0b7cf2"
+  integrity sha512-E1pA3/siRz1OpZzE1PbBAzzWRFYga1Yvf9BnoJig2Ng00JSOQCLxVGLJ30KM2Tohyezb2rpMCmWwP5GMlj952Q==
 
 "@octokit/plugin-paginate-rest@^2.2.0":
   version "2.3.0"
@@ -2246,9 +2246,9 @@ bindings@^1.5.0:
     file-uri-to-path "1.0.0"
 
 bl@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/bl/-/bl-2.2.0.tgz#e1a574cdf528e4053019bb800b041c0ac88da493"
-  integrity sha512-wbgvOpqopSr7uq6fJrLH8EsvYMJf9gzfo2jCsL2eTy75qXPukA4pCgHamOQkZtY5vmfVtjB+P3LNlMHW5CEZXA==
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/bl/-/bl-2.2.1.tgz#8c11a7b730655c5d56898cdc871224f40fd901d5"
+  integrity sha512-6Pesp1w0DEX1N550i/uGV/TqucVL4AM/pgThFSN/Qq9si1/DF9aIHs1BxD8V/QU0HoeHO6cQRTAuYnLPKq1e4g==
   dependencies:
     readable-stream "^2.3.5"
     safe-buffer "^5.1.1"
