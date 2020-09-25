@@ -1251,10 +1251,10 @@
     "@octokit/types" "^5.0.0"
     universal-user-agent "^6.0.0"
 
-"@octokit/oauth-login-url@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@octokit/oauth-login-url/-/oauth-login-url-2.1.2.tgz#364ef24a0aa4191f0f6ea6dfc64a999e460f9adf"
-  integrity sha512-ryDOt47Rno7+PG5XbdwoFTlADrH/f+XFf//keJngEeBNAe6gKrdcLL4vofa5005nl1ZIcIlgSnbKtKQhiKefMA==
+"@octokit/oauth-authorization-url@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@octokit/oauth-authorization-url/-/oauth-authorization-url-4.1.0.tgz#c55ebe59289ea2208a9c9ea51c7176042d0b7cf2"
+  integrity sha512-E1pA3/siRz1OpZzE1PbBAzzWRFYga1Yvf9BnoJig2Ng00JSOQCLxVGLJ30KM2Tohyezb2rpMCmWwP5GMlj952Q==
 
 "@octokit/plugin-paginate-rest@^2.2.0":
   version "2.3.0"
@@ -6635,10 +6635,15 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-node-fetch@2.6.0, node-fetch@^2.2.0, node-fetch@^2.3.0, node-fetch@^2.6.0:
+node-fetch@2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+
+node-fetch@^2.2.0, node-fetch@^2.3.0, node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-forge@^0.9.0:
   version "0.9.1"
